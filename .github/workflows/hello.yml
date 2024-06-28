@@ -1,5 +1,5 @@
 name: Hello                         # workflow name
-on: push                            # event name (push event)
+on: [push]                            # event name (push event)
 jobs:                               # definement job
   hello:                            # job id
     runs-on: ubuntu-latest          # runner (Ubuntu)
