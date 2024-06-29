@@ -5,4 +5,4 @@ jobs:
   sleep:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 60 # sleep 60 seconds
+      - run: sleep 60 # confirm sleep 60 seconds
